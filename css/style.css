@@ -1,0 +1,203 @@
+div.top-container{
+  
+    width: 100%;
+    position:relative;
+    font-display: #740938;
+    padding-bottom: 100px;
+    text-align: center;
+    padding-top: 50px;
+    
+
+}
+.left{
+  text-align:center;
+  
+}
+
+.intro-row{
+  background-color: #DE7C7D;
+  background-image: url();
+  
+}
+
+
+
+body{
+    margin: 0;
+    text-align: center;
+    color: #40514E;
+    font-weight: normal;
+    padding-bottom: 10px;
+    
+    
+}
+.name{
+  padding-top:100px ;
+}
+
+h1{
+   color: #740938;
+   font-size: 5.625em;
+    font-style: normal;
+    font-weight: 700;
+  font-family:'Montserrat',serif;}
+.top-container h2{
+   color: #740938;
+   font-size:2.5rem;
+   font-weight: 900;
+   font-family: "Amatic SC", serif;
+
+}
+.profile h2{
+  font-size: 2.5rem;
+  color: #CC2B52;
+font-weight: 900;
+font-family: "Amatic Sc", serif;
+
+}
+.skills h2{
+  font-size: 2.5rem;
+  font-family:'Montserrat',serif;
+  color: #740938;
+}
+h3{
+   color:#CC2B52;
+   font-weight: 800;
+   font-family: "Amatic Sc", serif;
+}
+hr{
+   border: dotted ;
+   border-width:6px; 
+   border-bottom:none ;
+   width: 4%;
+ }
+
+ .profile_img{
+    border-radius: 70%;
+    margin-bottom:10px;
+    background-color: #fff;
+    padding: 4px;
+
+ }
+ .skill-row{
+   width: 50%;
+   margin: 100px auto 100px auto;
+   text-align: left;
+   line-height: 2;
+   
+ }
+
+ .skills{
+    padding: 100px 15px 0px 0px;
+    text-align: center;
+    background-color:#fff;
+
+
+ }
+ .webdev{
+   width: 25%;
+   float: left;
+
+   margin-right: 30px;
+ }
+ .ai{
+   width: 25%;
+   float: right;
+
+   margin-left: 30px;
+ }
+ .program{
+   width:25%;
+   float: left;
+
+   margin-right: 30px;
+ 
+ }
+ .project{
+   width:25%;
+   float: right;
+
+   margin-left: 30px;
+  
+ }
+ .hobbies{
+   width: 25%;
+   float: left;
+
+   margin-right: 30px;
+ 
+ }
+ .intro
+ {
+width: 25%;
+margin: auto;
+ }
+ p{
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Montserrat',serif;
+ }
+ .contact-me{
+   width:40%;
+   margin: 40px auto 60px;
+ }
+ .btn {
+  width: 40%;
+   background: #740938;
+CC2b52ground-image: -webkit-linear-gradient(top, #b91159, #CC2B52);
+   background-image: -moz-linear-gradient(top, #b91159, #CC2b52);
+   background-image: -ms-linear-gradient(top, #b91159, #CC2b52);
+   background-image: -o-linear-gradient(top, #b91159, #CC2b52);
+   background-image: linear-gradient(to bottom, #b91159, #CC2b52);
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+   border-radius: 50px;
+   font-family: Arial;
+   color: #740938ff;
+   font-size: 20px;
+   text-decoration: none;
+ }
+ 
+ .btn:hover{
+   background: #CC2B52;
+
+ }
+ a{
+  color: #fff;
+  margin: 10px 20px;
+  text-decoration: none;
+
+ }
+ .copy{
+  color: #EAF6F6;
+
+ }
+ .amatic-sc-bold {
+  font-family: "Amatic SC", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.middle-container{
+  background-image: url(https://cartoonsco-media.s3.amazonaws.com/uploads/2022/09/animated-cute-baby-penguin-gif-with-a-laptop.gif);
+  background-position:  left;
+  background-repeat:no-repeat;}
+.profile{
+  right:10%;
+  
+
+}
+.nav-item{
+  color: #740938;
+}
+
+.nav-bar{
+  overflow: hidden;
+  background-color: #DE7C7D;
+  width: 100%;
+  margin: 0px 4px 0px 0px;
+  position: fixed;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
