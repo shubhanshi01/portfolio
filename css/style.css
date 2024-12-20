@@ -3,7 +3,7 @@ div.top-container{
     width: 100%;
     position:relative;
     font-display: #740938;
-    padding-bottom: 100px;
+    padding-bottom: 10px;
     text-align: center;
     padding-top: 50px;
     
@@ -16,8 +16,6 @@ div.top-container{
 
 .intro-row{
   background-color: #DE7C7D;
-  background-image: url();
-  
 }
 
 
@@ -28,8 +26,7 @@ body{
     color: #40514E;
     font-weight: normal;
     padding-bottom: 10px;
-    
-    
+       
 }
 .name{
   padding-top:100px ;
@@ -51,8 +48,8 @@ h1{
 .profile h2{
   font-size: 2.5rem;
   color: #CC2B52;
-font-weight: 900;
-font-family: "Amatic Sc", serif;
+ font-weight: 900;
+ font-family: "Amatic Sc", serif;
 
 }
 .skills h2{
@@ -65,14 +62,7 @@ h3{
    font-weight: 800;
    font-family: "Amatic Sc", serif;
 }
-hr{
-   border: dotted ;
-   border-width:6px; 
-   border-bottom:none ;
-   width: 4%;
- }
-
- .profile_img{
+.profile_img{
     border-radius: 70%;
     margin-bottom:10px;
     background-color: #fff;
@@ -86,10 +76,17 @@ hr{
    line-height: 2;
    
  }
+ .profile{
+  padding-top:10px ;
+  background-image: url(https://media.tenor.com/7Kfeng1H6kMAAAAe/grass-yan-jun-squeeze.png);
+  background-size: 10%;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  padding: 20px 20px ;
+ }
 
  .skills{
     padding: 100px 15px 0px 0px;
-    text-align: center;
     background-color:#fff;
 
 
@@ -97,7 +94,6 @@ hr{
  .webdev{
    width: 25%;
    float: left;
-
    margin-right: 30px;
  }
  .ai{
@@ -129,36 +125,36 @@ hr{
  }
  .intro
  {
-width: 25%;
-margin: auto;
+width: 100%;
+margin:auto;
+text-align: center;
+padding-bottom: 100px;
+padding-top: 10px;
  }
- p{
-  font-size: 16px;
-  font-weight: 400;
+ p
+ {font-size: 2.5vh;
+  font-weight: 500;
   font-family: 'Montserrat',serif;
  }
  .contact-me{
    width:40%;
    margin: 40px auto 60px;
  }
- .btn {
-  width: 40%;
+ .pbtn {
+  width: 20vh;
    background: #740938;
-CC2b52ground-image: -webkit-linear-gradient(top, #b91159, #CC2B52);
+   background-image: linear-gradient(top, #b91159, #CC2B52);
    background-image: -moz-linear-gradient(top, #b91159, #CC2b52);
    background-image: -ms-linear-gradient(top, #b91159, #CC2b52);
    background-image: -o-linear-gradient(top, #b91159, #CC2b52);
-   background-image: linear-gradient(to bottom, #b91159, #CC2b52);
-   -webkit-border-radius: 50%;
-   -moz-border-radius: 50%;
-   border-radius: 50px;
+   background-image: linear-gradient(to bottom, #b91159, #CC2b52); 
    font-family: Arial;
-   color: #740938ff;
-   font-size: 20px;
-   text-decoration: none;
+   color: white;
+   font-size: 30px;
+   text-decoration:solid;
  }
  
- .btn:hover{
+ .pbtn:hover{
    background: #CC2B52;
 
  }
@@ -169,22 +165,13 @@ CC2b52ground-image: -webkit-linear-gradient(top, #b91159, #CC2B52);
 
  }
  .copy{
-  color: #EAF6F6;
+  color: #40eeee;
 
  }
  .amatic-sc-bold {
   font-family: "Amatic SC", serif;
   font-weight: 700;
   font-style: normal;
-}
-.middle-container{
-  background-image: url(https://cartoonsco-media.s3.amazonaws.com/uploads/2022/09/animated-cute-baby-penguin-gif-with-a-laptop.gif);
-  background-position:  left;
-  background-repeat:no-repeat;}
-.profile{
-  right:10%;
-  
-
 }
 .nav-item{
   color: #740938;
@@ -200,4 +187,43 @@ CC2b52ground-image: -webkit-linear-gradient(top, #b91159, #CC2B52);
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+}
+.game{
+  height: 70vmin;
+}
+.main-game{
+  height: 45vmin;
+  display: flex;
+flex-wrap: wrap;
+justify-content:center;
+align-items: center;
+
+}
+
+.board{
+  height: 40vh;
+  width: 40vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  align-items: center;
+  gap: 1.5vmin;
+}
+
+.box{
+  height: 11.5vh;
+  width: 11.2vh;
+  border-radius: 1rem;
+  border: #740938;
+}
+
+.reset{
+  background-color: #9b0747;
+  border-radius:1.5rem ;
+  height: 2.5rem;
+  width: 5rem;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  color: white;
 }
