@@ -79,6 +79,8 @@ h1{
  .skills{
     padding: 100px 15px 0px 0px;
     background-color:#fff;
+    align-items: center;
+    justify-content: center;
 
 
  }
@@ -248,16 +250,14 @@ h3{
 .skills{
   padding-bottom: 100px;
 }
-.skill-item{
-  align-content: center;
-  justify-content:center;
-}
 
 .items{
   line-height:1rem;
 }
 .card{
-margin-left: 100px;
+margin-left: 50px;
+margin-right: 50px;
+
 }
 
 .bottom-container{
