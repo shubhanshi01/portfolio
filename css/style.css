@@ -248,6 +248,10 @@ h3{
 .skills{
   padding-bottom: 100px;
 }
+.skill-item{
+  align-content: center;
+  justify-content:center;
+}
 
 .items{
   line-height:1rem;
